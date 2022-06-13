@@ -34,8 +34,6 @@ The pdf file can be found [here](https://arxiv.org/abs/2202.00158).
 ## Update log
 ---
 - 22-05-18: Code Release.
-- 22-02-01: Code is coming soon...
-- 21-06-15: Prepare Demo Data.
 
 ## TODO LIST
 ---
