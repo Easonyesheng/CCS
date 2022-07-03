@@ -1,11 +1,11 @@
 
 # Learning-based Camera Calibration
 ---
-This is the official implementation of the paper: 'Learning-Based Framework for Camera Calibration with Distortion Correction and High Precision Feature Detection', by Yesheng Zhang and Xu Zhao and Dahong Qian.
+This is the official implementation of the paper: `Learning-based Distortion Correction and Feature Detection for High Precision and Robust Camera Calibration', by Yesheng Zhang and Xu Zhao and Dahong Qian.
 
 ## Abstract
 ---
-We propose a learning-based Camera Calibration Framework (CCF).
+We propose a learning-based Camera Calibration System (CCS).
 In this framework, the accuracy and robustness of camera calibration are improved from three aspects: distortion correction, corner detection and parameter estimation.
 Specifically, the distortion correction is performed by the learning-based method.
 Accurate feature locations are achieved by the combination of learning-based detection, specially designed refinement and complete post-processing.
@@ -16,12 +16,13 @@ Moreover, we obtain stable parameter estimation by a RANSAC-based procedure.
 ## Paper  
 ---
 
-The pdf file can be found [here](https://arxiv.org/abs/2202.00158). 
+Our paper is accepted by RA-L & IROS22.
+The pdf file can be found [here](https://arxiv.org/abs/2202.00158)(*Not the latest version which will be published sooner*). 
 
 ### BibTex
 ```Latex
 @misc{zhang2022learningbased,
-    title={Learning-Based Framework for Camera Calibration with Distortion Correction and High Precision Feature Detection},
+    title={Learning-based Distortion Correction and Feature Detection for High Precision and Robust Camera Calibration},
     author={Yesheng Zhang and Xu Zhao and Dahong Qian},
     year={2022},
     eprint={2202.00158},
