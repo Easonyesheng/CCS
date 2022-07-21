@@ -17,18 +17,19 @@ Moreover, we obtain stable parameter estimation by a RANSAC-based procedure.
 ---
 
 Our paper is accepted by RA-L & IROS22.
-The pdf file can be found [here](https://arxiv.org/abs/2202.00158)(*Not the latest version which will be published sooner*). 
+The pdf file can be found [here](https://ieeexplore.ieee.org/document/9834080).
 
 ### BibTex
 ```Latex
-@misc{zhang2022learningbased,
-    title={Learning-based Distortion Correction and Feature Detection for High Precision and Robust Camera Calibration},
-    author={Yesheng Zhang and Xu Zhao and Dahong Qian},
-    year={2022},
-    eprint={2202.00158},
-    archivePrefix={arXiv},
-    primaryClass={cs.CV}
-}
+@ARTICLE{9834080,  
+author={Zhang, Yesheng and Zhao, Xu and Qian, Dahong},  
+journal={IEEE Robotics and Automation Letters},   
+title={Learning-Based Distortion Correction and Feature Detection for High Precision and Robust Camera Calibration},   
+year={2022},  
+volume={},  
+number={},  
+pages={1-8},  
+doi={10.1109/LRA.2022.3192610}}
 ```
 
 
