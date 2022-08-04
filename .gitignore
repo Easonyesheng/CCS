@@ -9,3 +9,5 @@ demo_data/example/DetectRes/.DS_Store
 demo_data/example/.DS_Store
 demo_data/example/DetectRes/color_img/.DS_Store
 demo_data/example/DetectRes/heatmap/.DS_Store
+assets/.DS_Store
+.DS_Store
