@@ -26,9 +26,9 @@ author={Zhang, Yesheng and Zhao, Xu and Qian, Dahong},
 journal={IEEE Robotics and Automation Letters},   
 title={Learning-Based Distortion Correction and Feature Detection for High Precision and Robust Camera Calibration},   
 year={2022},  
-volume={},  
-number={},  
-pages={1-8},  
+volume={7},  
+number={4},  
+pages={10470-10477},  
 doi={10.1109/LRA.2022.3192610}}
 ```
 
