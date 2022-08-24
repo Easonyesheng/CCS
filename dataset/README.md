@@ -15,14 +15,15 @@ Here we provide the code for our synthetic data generation, including chessboard
 
 If you find this code useful, please cite:
 ```Latex
-@misc{zhang2022learningbased,
-    title={Learning-Based Framework for Camera Calibration with Distortion Correction and High Precision Feature Detection},
-    author={Yesheng Zhang and Xu Zhao and Dahong Qian},
-    year={2022},
-    eprint={2202.00158},
-    archivePrefix={arXiv},
-    primaryClass={cs.CV}
-}
+@ARTICLE{9834080,  
+author={Zhang, Yesheng and Zhao, Xu and Qian, Dahong},  
+journal={IEEE Robotics and Automation Letters},   
+title={Learning-Based Distortion Correction and Feature Detection for High Precision and Robust Camera Calibration},   
+year={2022},  
+volume={7},  
+number={4},  
+pages={10470-10477},  
+doi={10.1109/LRA.2022.3192610}}
 ```
 
 ![dataImg](../assets/SyntheData.png)
