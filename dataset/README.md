@@ -41,27 +41,13 @@ As the refrence standard image can be easily projected from 3D to 2D, we use the
 
 The relationship between these two kind of images can be derived as follows:
 
-The reference image is projected by:
-$$    P_{ic}^0
-     = 
-     K[I | t^0]
-     P_{wc}
-$$
+The reference image is projected by: $P_{ic}^0 = K[I | t^0]P_{wc}$
 
-The randomly placed iamge is prjected by:
-$$
-    P_{ic}^1
-     = 
-     K[R^1 | t^1]
-     P_{wc}
-$$
+The randomly placed iamge is prjected by: $P_{ic}^1 = K[R^1 | t^1]P_{wc}$
 
 where $ic$ represents the image coordinate system, and $wc$ is the world coordinate system.
 
-Thus, the image trasformation is:
-$$
-P_{ic}^1 = KR^1K^{-1}P_{ic}^0 - KR^1t^0 + Kt^1
-$$
+Thus, the image trasformation is: $P_{ic}^1 = KR^1K^{-1}P_{ic}^0 - KR^1t^0 + Kt^1$
 
 Based on this equation, we can get the $P_{ic}^1$, which is the image of randomly placed chessboard.
 
