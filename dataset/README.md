@@ -43,7 +43,7 @@ The relationship between these two kind of images can be derived as follows:
 
 The reference image is projected by: $P_{ic}^0 = K[I | t^0]P_{wc}$
 
-The randomly placed iamge is prjected by: $P_{ic}^1 = K[R^1 | t^1]P_{wc}$
+The randomly placed image is prjected by: $P_{ic}^1 = K[R^1 | t^1]P_{wc}$
 
 where $ic$ represents the image coordinate system, and $wc$ is the world coordinate system.
 
