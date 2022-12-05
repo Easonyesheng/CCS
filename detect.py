@@ -261,31 +261,6 @@ class Detect(object):
         logging.info(f'The minimal error in {mod} is {min_err}')
 
         return err
-
-
-
-
-
-
         
-
 if __name__ == '__main__':
-
-
-
-    # detect for calibration
-    test = Detect('Calib')
-    # detect
-    root_path = r''
-
-
-    img_path = os.path.join(root_path, 'img') 
-    # img_path = os.path.join(root_path, 'dist_img')
-    # img_path = os.path.join(root_path, 'rect_img')
-    
-    test.save_path = os.path.join(root_path,'DetectRes')
-
-    test.checkpoint_path = r''
-    test_dir_if_not_create(os.path.join(test.save_path, 'color_img'))
-    test_dir_if_not_create(os.path.join(test.save_path, 'heatmap'))
-    test.high_volume_detect(img_path, save_flag=True)
+    pass
