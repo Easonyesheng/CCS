@@ -1,6 +1,6 @@
 
 __pycache__/.DS_Store
-*.pth
+# *.pth
 demo_data/example/GT/.DS_Store
 demo_data/example/img/.DS_Store
 demo_data/example/dist_img/.DS_Store
