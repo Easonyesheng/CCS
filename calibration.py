@@ -1,8 +1,7 @@
 ''' A Class to Perform Calibration '''
 
-from heapq import nsmallest
+
 import os
-from traceback import print_tb
 import numpy as np
 import glob
 import logging
@@ -180,7 +179,7 @@ class Calib(object):
         """
         Args:
             least_pose_num : use <=* images to calib every time
-            outlioutlier_threshold : if RPE > *, set it as outlier
+            outlier_threshold : if RPE > *, set it as outlier
             inlier_threshold: if inliers numbers > (* x img_num) -> stop calib 
         """
         if save_flag:
@@ -243,7 +242,7 @@ class Calib(object):
             You are recommended to use large max_iter_num to acquire better model.
         Args:
             least_pose_num : use <= ([]ximages) to calib every time
-            outlioutlier_threshold : if RPE > [], set it as outlier
+            outlier_threshold : if RPE > [], set it as outlier
             inlier_threshold: if inliers numbers > ([] x img_num) -> stop calib 
         Returns:
             a list of Intrinsic parameters with max Inlier number
