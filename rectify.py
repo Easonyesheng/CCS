@@ -27,7 +27,7 @@ class Rect(object):
        s2: distorting image
        s3: predict parameter by net
        s4: rectify
-       s5 calculate SSIM & PSNR
+       s5: calculate SSIM & PSNR
     """
 
     def __init__(self, log_name):
