@@ -40,8 +40,9 @@ doi={10.1109/LRA.2022.3192610}}
 ## TODO LIST
 ---
 
-- [x] code release.
-- [x] README complete.
+- [x] code released.
+- [x] README completed.
+- [x] Detection weights released.
 
 ## Usage
 ---
