@@ -42,7 +42,7 @@ doi={10.1109/LRA.2022.3192610}}
 
 - [x] code released.
 - [x] README completed.
-- [x] Detection weights released. **Note this model is trained on basic dataset without augmentation by uneven lighting.**
+- [x] Detection weights released. **Note this model is trained on basic dataset without augmentation by uneven lighting.** See Issue[https://github.com/Easonyesheng/CCS/issues/9].
 
 ## Usage
 ---
