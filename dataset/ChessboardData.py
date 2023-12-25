@@ -17,7 +17,11 @@ class ChessboardDetectDataset(Dataset):
     """
     def __init__(self, txt_path, img_size=128):
         """dataset
-            txt saved as: img_path heatmap_path
+            txt saved as: 
+            {
+            img_path heatmap_path\n
+            ...
+            }
         """
         self.img_paths = []
         self.heatmap_paths = []
