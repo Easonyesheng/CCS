@@ -10,9 +10,15 @@ import torchvision.transforms as transforms
 class DistCorrectDataset(Dataset):
     def __init__(self, txt_path, img_size=128):
         """dataset
-            txt saved as: img_path corner_path
-            Every N corner is 3xNx3, the first one in dim=0 is corner before, the second one in dim=0 is corner after
-                corner[2,0,0] = distort parameter
+            txt saved as: 
+                {
+                img_path corner_path\n
+                ...
+                }
+            Every N corner is 3xNx3
+            the first one in dim=0 is the corner before correction;
+            the second one in dim=0 is the corner after correction;
+            corner[2,...] = distort parameter;
         """
         self.img_paths = []
         self.corner_paths = []
