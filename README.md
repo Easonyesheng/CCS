@@ -36,6 +36,7 @@ doi={10.1109/LRA.2022.3192610}}
 ## Update log
 ---
 - 22-05-18: Code Release.
+- 24-04-20: Good for newcomers: [practical example.](https://github.com/Easonyesheng/CCS/issues/17)
 
 ## TODO LIST
 ---
