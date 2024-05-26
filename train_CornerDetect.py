@@ -97,21 +97,23 @@ def train_net(net,
                 heatmap_type = torch.float32
                 true_heatmap = true_heatmap.to(device=device, dtype=heatmap_type)
 
-                if model=='Superpoint':
-                    net_out = net(imgs)
-                    params = {
-                        'out_num_points': 500,
-                        'patch_size': 1,
-                        'device': device,
-                        'nms_dist': 4,
-                        'conf_thresh': 0.015
-                    }
+                # if model=='Superpoint':
+                #     net_out = net(imgs)
+                #     params = {
+                #         'out_num_points': 500,
+                #         'patch_size': 1,
+                #         'device': device,
+                #         'nms_dist': 4,
+                #         'conf_thresh': 0.015
+                #     }
 
-                    sp_processer = SuperPointNet_process(**params)
-                    outs = net.process_output(sp_processer)
-                    heatmap_pred = outs['heatmap']
-                elif model == 'UNet'or model == 'UNetSimp':
+                #     sp_processer = SuperPointNet_process(**params)
+                #     outs = net.process_output(sp_processer)
+                #     heatmap_pred = outs['heatmap']
+                if model == 'UNet'or model == 'UNetSimp':
                     heatmap_pred = net(imgs)
+                else:
+                    raise NotImplementedError(f'{model} is not implemented')
 
                 #=====================================================loss part start
                 # heatmap_pred_patch_loss = patch_loss(heatmap_pred, device=device ,batch= batch_size).to(device=device, dtype=heatmap_type)
