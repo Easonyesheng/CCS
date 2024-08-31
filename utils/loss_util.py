@@ -54,7 +54,7 @@ def cal_radial_model_loss(batch, order, parameters, corners, device, corner_size
         corners: [batchx3xNx2]
             corner_before = corners[batch, 0, :, :]
             corner_after = corners[batch, 1, :, :]
-            para = corners[batch, order, 0, 0]
+            para = corners[batch, order, :, :] # NOT USED
     """
     # corner_size = corners.to(device).type(torch.float32)
     loss_tot = 0
